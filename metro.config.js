@@ -1,4 +1,4 @@
-const jsoMetroPlugin = require("obfuscator-io-metro-plugin")(
+const jsoMetroPlugin = require('obfuscator-io-metro-plugin')(
   {
     compact: false,
     sourceMap: true,
@@ -14,7 +14,7 @@ const jsoMetroPlugin = require("obfuscator-io-metro-plugin")(
     runInDev: false /* optional */,
     logObfuscatedFiles: true /* optional generated files will be located at ./.jso */,
     sourceMapLocation:
-      "./index.android.bundle.map" /* optional  only works if sourceMap: true in obfuscation option */,
+      './index.android.bundle.map' /* optional  only works if sourceMap: true in obfuscation option */,
   },
 );
 
